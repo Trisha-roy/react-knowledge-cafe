@@ -1,0 +1,53 @@
+ [
+      {
+        "id": 1,
+        "cover": "https://example.com/article1_cover.jpg",
+        "title": "Lorem Ipsum: The Art of Filler Text",
+        "author": "John Doe",
+        "author_img": "https://example.com/john_doe.jpg",
+        "posted_date": "2023-11-17",
+        "read_times": 1200,
+        "hashtags": ["Lorem", "Ipsum", "Design"]
+      },
+      {
+        "id": 2,
+        "cover": "https://example.com/article2_cover.jpg",
+        "title": "Exploring Virtual Reality: Beyond the Headset",
+        "author": "Jane Smith",
+        "author_img": "https://example.com/jane_smith.jpg",
+        "posted_date": "2023-11-16",
+        "read_times": 850,
+        "hashtags": ["VirtualReality", "Technology", "Innovation"]
+      },
+      {
+        "id": 3,
+        "cover": "https://example.com/article3_cover.jpg",
+        "title": "Cooking Adventures: A Culinary Journey",
+        "author": "Alex Johnson",
+        "author_img": "https://example.com/alex_johnson.jpg",
+        "posted_date": "2023-11-15",
+        "read_times": 650,
+        "hashtags": ["Cooking", "Foodie", "Culinary"]
+      },
+      {
+        "id": 4,
+        "cover": "https://example.com/article4_cover.jpg",
+        "title": "Photography Tips for Beginners",
+        "author": "Emily Davis",
+        "author_img": "https://example.com/emily_davis.jpg",
+        "posted_date": "2023-11-14",
+        "read_times": 1100,
+        "hashtags": ["Photography", "Tips", "Beginners"]
+      },
+      {
+        "id": 5,
+        "cover": "https://example.com/article5_cover.jpg",
+        "title": "Fitness and Wellness: A Holistic Approach",
+        "author": "Michael Brown",
+        "author_img": "https://example.com/michael_brown.jpg",
+        "posted_date": "2023-11-13",
+        "read_times": 950,
+        "hashtags": ["Fitness", "Wellness", "Health"]
+      }
+    ]
+  
