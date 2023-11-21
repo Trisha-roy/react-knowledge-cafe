@@ -1,7 +1,7 @@
  [
       {
         "id": 1,
-        "cover": "https://example.com/article1_cover.jpg",
+        "cover": "https://i.ibb.co/mqSZLtp/elevated-view-laptop-spectacles-pencil-potted-plant-pink-surface-1.jpg",
         "title": "Lorem Ipsum: The Art of Filler Text",
         "author": "John Doe",
         "author_img": "https://example.com/john_doe.jpg",
@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "cover": "https://example.com/article2_cover.jpg",
+        "cover": "https://i.ibb.co/yV42LP3/close-up-laptop-mobile-phone-with-cup-coffee-eyeglasses.jpg",
         "title": "Exploring Virtual Reality: Beyond the Headset",
         "author": "Jane Smith",
         "author_img": "https://example.com/jane_smith.jpg",
@@ -21,7 +21,7 @@
       },
       {
         "id": 3,
-        "cover": "https://example.com/article3_cover.jpg",
+        "cover": "https://i.ibb.co/mXmm6jh/flat-lay-hand-holding-coffee-agenda.jpg",
         "title": "Cooking Adventures: A Culinary Journey",
         "author": "Alex Johnson",
         "author_img": "https://example.com/alex_johnson.jpg",
