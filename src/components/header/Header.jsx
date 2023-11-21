@@ -1,9 +1,11 @@
 import React from 'react';
+import Profile from '../../assets/images/profile.png'
 
 const Header = () => {
     return (
-        <div>
-            <h1 className='text-5xl font-bold bg-red-400 text-center'>Knowledge-Cafe</h1>
+        <div className='flex justify-between mx-4 p-4 border-b-2'>
+            <h1 className='text-4xl font-bold  text-center'>Knowledge-Cafe</h1>
+            <img src={Profile}></img>
         </div>
     );
 };
