@@ -7,11 +7,12 @@ const Blog = ({blog}) => {
 
 
     return (
-        <div>
+
+        <div className='mb-20'>
 
 
 
-            <img src={cover}></img>
+            <img className='w-96' src={cover}></img>
 
 
 
