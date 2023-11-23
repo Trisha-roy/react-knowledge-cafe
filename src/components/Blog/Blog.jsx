@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'; 
 import Icon from '../../assets/images/Frame.svg'
 
-const Blog = ({blog,handleBookmark}) => {
+const Blog = ({blog,handleBookmark,handleRead}) => {
 
     const {title,cover,author,author_img,read_times,hashtags,posted_date}=blog
 
 
     return (
 
-        <div className='mb-20'>
+        <div className='mb-20 space-y-4'>
 
 
 
@@ -50,6 +50,11 @@ const Blog = ({blog,handleBookmark}) => {
                 }
             </p>
 
+            <button 
+            onClick={()=>handleRead(read_times)}
+            className='text-purple-600 font-bold underline'>
+            Mark as read
+            </button>
 
         </div>
     );
@@ -57,7 +62,8 @@ const Blog = ({blog,handleBookmark}) => {
 
 Blog.propTypes={
     blog:PropTypes.object.isRequired,
-    handleBookmark:PropTypes.func
+    handleBookmark:PropTypes.func,
+    handleRead:PropTypes.func
 }
 
 export default Blog;
