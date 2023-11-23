@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; 
 import Icon from '../../assets/images/Frame.svg'
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handleBookmark}) => {
 
     const {title,cover,author,author_img,read_times,hashtags,posted_date}=blog
 
@@ -34,7 +34,7 @@ const Blog = ({blog}) => {
 
 
                 <div>
-                <img src={Icon}></img>
+                <img onClick={()=>handleBookmark(blog)} src={Icon}></img>
                 </div>
 
                 
@@ -56,7 +56,8 @@ const Blog = ({blog}) => {
 };
 
 Blog.propTypes={
-    blog:PropTypes.object.isRequired
+    blog:PropTypes.object.isRequired,
+    handleBookmark:PropTypes.func
 }
 
 export default Blog;
