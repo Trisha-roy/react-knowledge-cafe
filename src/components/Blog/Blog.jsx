@@ -12,18 +12,18 @@ const Blog = ({blog,handleBookmark,handleRead}) => {
 
 
 
-            <img className='w-96' src={cover}></img>
+            <img className='w-full' src={cover}></img>
 
 
 
             <div className='flex justify-between'>
 
                 <div className='flex'>
-                <img className='w-14 h-14 rounded-3xl' src={author_img}></img>
+                <img className='w-10 h-10 rounded-3xl' src={author_img}></img>
 
                 <div>
-                    <h2 className='text-2xl'>{author}</h2>
-                    <p>{posted_date}</p>
+                    <h2 className='font-bold ml-5'>{author}</h2>
+                    <p className='ml-5 text-gray-500 text-sm'>{posted_date}</p>
                 </div>
 
                 </div>
@@ -42,7 +42,7 @@ const Blog = ({blog,handleBookmark,handleRead}) => {
             </div>
 
 
-            <h4 className='text-4xl'>{title}</h4>
+            <h4 className='text-4xl font-bold underline'>{title}</h4>
             <p>
 
                 {

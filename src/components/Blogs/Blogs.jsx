@@ -14,10 +14,10 @@ const Blogs = ({handleBookmark,handleRead}) => {
 
     return (
 
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 m-5">
 
 
-            <h1 className="text-4xl">Blogs : {blogs.length}</h1>
+            <h1 className="text-4xl mb-3">Blogs : {blogs.length}</h1>
             {
 
                 blogs.map(blog=><Blog 
